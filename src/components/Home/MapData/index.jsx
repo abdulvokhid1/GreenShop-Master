@@ -167,14 +167,6 @@ const MapData = () => {
           <Wrapper.Option value={false}>False</Wrapper.Option>
           <Wrapper.Option value={true}>True</Wrapper.Option>
         </Wrapper.Select>
-        {/* {
-          (selectedData[e.target.Option.value] = "true" ? (
-            <input type="True" />
-          ) : (
-            <h1>No</h1>
-          ))
-        } */}
-
         <Wrapper.Button mt="27" onClick={editDataChange}>
           {showSpinner ? <Spin indicator={antIcon} /> : "Change"}
         </Wrapper.Button>
