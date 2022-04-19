@@ -70,6 +70,25 @@ import {
   West_Wrapper,
   West,
   Location,
+  Contact_Wrapper,
+  Message,
+  Contact,
+  Phone_Wrapper,
+  Phone,
+  Phone_Number,
+  My_Account,
+  Account_Wrapper,
+  Weighty_Word,
+  Small_Word,
+  Instagram_Wrapper,
+  Facebook,
+  Instagram,
+  Twitter,
+  Inline,
+  Tvchannel,
+  Accept,
+  PayImage,
+  RightsPart,
 } from "./style";
 import redstar from "../../../assets/icons/redstar.png";
 import flower1 from "../../../assets/imgs/flower1.png";
@@ -80,6 +99,12 @@ import flower5 from "../../../assets/imgs/flower5.png";
 import flower6 from "../../../assets/imgs/flower6.png";
 import flower7 from "../../../assets/imgs/flower7.png";
 import flower8 from "../../../assets/imgs/flower8.png";
+import facebook2 from "../../../assets/icons/facebook2.png";
+import instagram from "../../../assets/icons/instagram.png";
+import twitter from "../../../assets/icons/twitter.png";
+import linkedin from "../../../assets/icons/linkedin.png";
+import youtube from "../../../assets/icons/youtube.png";
+import paypal from "../../../assets/imgs/paypal.png";
 import { Button } from "antd";
 export const AddPlantCard = () => {
   return (
@@ -198,7 +223,44 @@ export const AddPlantCard = () => {
           <Location />
           <West>70 West Buckingham Ave. Farmingdale, NY 11735</West>
         </West_Wrapper>
+        <Contact_Wrapper>
+          <Message />
+          <Contact>contact@greenshop.com</Contact>
+        </Contact_Wrapper>
+        <Phone_Wrapper>
+          <Phone />
+          <Phone_Number>+88 01911 717 490</Phone_Number>
+        </Phone_Wrapper>
       </GreenShop>
+      <My_Account>
+        <Account_Wrapper>
+          <Weighty_Word>My Account</Weighty_Word>
+          <Small_Word>My Account </Small_Word>
+          <Small_Word>Address</Small_Word>
+          <Small_Word>Wishlist</Small_Word>
+        </Account_Wrapper>
+        <Account_Wrapper>
+          <Weighty_Word>Categories</Weighty_Word>
+          <Small_Word>House Plants </Small_Word>
+          <Small_Word>Potter Plants</Small_Word>
+          <Small_Word>Seeds</Small_Word>
+          <Small_Word>Snall Plants </Small_Word>
+          <Small_Word>Accessories</Small_Word>
+        </Account_Wrapper>
+        <Account_Wrapper>
+          <Weighty_Word>Social Media</Weighty_Word>
+          <Instagram_Wrapper>
+            <Facebook src={facebook2} />
+            <Instagram src={instagram} />
+            <Twitter src={twitter} />
+            <Inline src={linkedin} />
+            <Tvchannel src={youtube} />
+          </Instagram_Wrapper>
+          <Accept>We Accept</Accept>
+          <PayImage src={paypal} />
+        </Account_Wrapper>
+      </My_Account>
+      <RightsPart>© 2021 GreenShop. All Rights Reserved.</RightsPart>
     </Add_Wrapper>
   );
 };

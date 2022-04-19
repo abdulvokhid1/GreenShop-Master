@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { ReactComponent as logo } from "../../../assets/icons/logo.svg";
-import { ReactComponent as location } from "../../../assets/icons/location.svg";
+import { ReactComponent as location2 } from "../../../assets/icons/location2.svg";
+import { ReactComponent as phone } from "../../../assets/icons/phone.svg";
+import { ReactComponent as message } from "../../../assets/icons/message.svg";
 const Add_Wrapper = styled.div`
   width: 100%;
-  height: 1700px;
-  border: 1px solid red;
-  /* background: grey; */
+  height: 1900px;
   display: flex;
   flex-direction: column;
 `;
@@ -14,7 +14,6 @@ const Type_Wrapper = styled.div`
   flex-direction: column;
   margin-left: 289px;
   margin-right: 289px;
-  border: 1px solid black;
   height: 1000px;
 `;
 const Plant = styled.p`
@@ -27,9 +26,6 @@ const Plant = styled.p`
 `;
 const Input_Wrapper = styled.div`
   display: flex;
-  /* flex-direction: column; */
-  border: 1px solid black;
-  /* height: 300px; */
 `;
 const Flex_Wrapper = styled.div`
   display: flex;
@@ -47,7 +43,6 @@ const Name_Input_Wrapper = styled.div`
   display: flex;
   align-items: center;
   text-align: center;
-  /* flex-direction: column; */
 `;
 const RedIcon = styled.img`
   font-family: "Inter";
@@ -59,7 +54,6 @@ const RedIcon = styled.img`
 `;
 const Input_Name = styled.input`
   border: 1px solid #eaeaea;
-  box-sizing: border-box;
   border-radius: 3px;
   width: 453px;
   height: 40px;
@@ -215,7 +209,6 @@ const Featured = styled.p`
 const Img_Container = styled.div`
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 `;
 const Img_Wrapper_One = styled.div`
   display: flex;
@@ -274,7 +267,6 @@ const OnSave = styled.button`
 `;
 const Icon_Card_Wrapper = styled.div`
   display: flex;
-  border: 1px solid black;
   margin-left: 120px;
   margin-right: 120px;
   height: 250px;
@@ -283,7 +275,6 @@ const Icon_Card_Wrapper = styled.div`
 `;
 const Garden_Wrapper = styled.div`
   border-right: 1px solid rgba(70, 163, 88, 0.1);
-  /* align-items: center; */
 `;
 const Garder_Flower = styled.img`
   width: 120px;
@@ -386,6 +377,7 @@ const Button_Wrapper = styled.button`
   border: none;
   height: 40px;
   border: none;
+  color: white;
 `;
 const Email_Small = styled.p`
   font-family: "Inter";
@@ -393,8 +385,6 @@ const Email_Small = styled.p`
   font-weight: 400;
   font-size: 13px;
   line-height: 22px;
-  /* or 169% */
-
   color: #727272;
   width: 354px;
   height: 89px;
@@ -411,10 +401,12 @@ const GreenShop = styled.div`
 `;
 const Logo = styled(logo)`
   text-align: center;
+  margin-top: 20px;
 `;
 const West_Wrapper = styled.div`
   display: flex;
   /* flex-direction: column; */
+  margin-top: 20px;
   text-align: center;
 `;
 const West = styled.p`
@@ -427,8 +419,138 @@ const West = styled.p`
   width: 185px;
   height: 44px;
 `;
-const Location = styled(location)``;
+const Location = styled(location2)``;
+const Contact_Wrapper = styled.div`
+  display: flex;
+  margin-top: 20px;
+  /* align-items: center; */
+  text-align: center;
+`;
+const Contact = styled.p`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3d3d3d;
+  width: 185px;
+  height: 44px;
+`;
+const Message = styled(message)``;
+const Phone_Wrapper = styled.div`
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  margin-top: 20px;
+`;
+const Phone_Number = styled.p`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3d3d3d;
+  width: 185px;
+  height: 44px;
+`;
+const Phone = styled(phone)``;
+const My_Account = styled.div`
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 300px;
+  justify-content: space-around;
+`;
+const Account_Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+const Weighty_Word = styled.p`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  color: #3d3d3d;
+`;
+const Small_Word = styled.p`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #3d3d3d;
+`;
+const Instagram_Wrapper = styled.div`
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  margin-top: 15px;
+`;
+const Facebook = styled.img`
+  border: 2px solid rgba(70, 163, 88, 0.2);
+  border-radius: 4px;
+  padding: 5px 10px;
+`;
+const Instagram = styled.img`
+  border: 2px solid rgba(70, 163, 88, 0.2);
+  border-radius: 4px;
+  padding: 5px 6px;
+`;
+const Twitter = styled.img`
+  border: 2px solid rgba(70, 163, 88, 0.2);
+  border-radius: 4px;
+  padding: 5px 6px;
+`;
+const Inline = styled.img`
+  border: 2px solid rgba(70, 163, 88, 0.2);
+  border-radius: 4px;
+  padding: 5px 6px;
+`;
+const Tvchannel = styled.img``;
+const Accept = styled.p`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  color: #3d3d3d;
+  margin-top: 50px;
+`;
+const PayImage = styled.img`
+  margin-top: 10px;
+`;
+const RightsPart = styled.p`
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #3d3d3d;
+  text-align: center;
+`;
 export {
+  RightsPart,
+  PayImage,
+  Accept,
+  Facebook,
+  Instagram,
+  Twitter,
+  Inline,
+  Tvchannel,
+  Instagram_Wrapper,
+  Small_Word,
+  Weighty_Word,
+  Account_Wrapper,
+  My_Account,
+  Phone,
+  Phone_Number,
+  Phone_Wrapper,
+  Contact_Wrapper,
+  Contact,
+  Message,
   West_Wrapper,
   Location,
   West,
