@@ -193,6 +193,7 @@ const Desc_Input = styled.input`
   height: 80px;
   outline: none;
 `;
+
 const Featured_Wrapper = styled.div`
   display: flex;
   align-items: center;
@@ -459,7 +460,8 @@ const My_Account = styled.div`
   margin-left: 120px;
   margin-right: 120px;
   height: 300px;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 20px;
 `;
 const Account_Wrapper = styled.div`
   display: flex;

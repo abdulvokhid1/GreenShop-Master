@@ -4,8 +4,8 @@ import Categories from "./Categories Dashboard";
 import CreateNewsletter from "./CreateNewsletter";
 import MainCard from "./MainCard";
 import MapData from "./MapData";
-import { AddPlantCard } from "./AddPlantCard";
 import { Container } from "./style";
+import AddCard from "../Home/AddCard";
 // import { data } from '../../utils/auth/data';
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
         <MapData />
       </Container>
       <CreateNewsletter />
-      <AddPlantCard />
+      <AddCard />
     </div>
   );
 };

@@ -161,6 +161,7 @@ export const AddPlantCard = () => {
         </Description_Wrapper>
         <Featured_Wrapper>
           <Featured>Featured Image</Featured>
+          Abdulvohid, [20/04/2022 16:56]
           <RedIcon src={redstar} />
         </Featured_Wrapper>
         <Img_Container>
@@ -244,7 +245,7 @@ export const AddPlantCard = () => {
           <Small_Word>House Plants </Small_Word>
           <Small_Word>Potter Plants</Small_Word>
           <Small_Word>Seeds</Small_Word>
-          <Small_Word>Snall Plants </Small_Word>
+          <Small_Word>Small Plants </Small_Word>
           <Small_Word>Accessories</Small_Word>
         </Account_Wrapper>
         <Account_Wrapper>
